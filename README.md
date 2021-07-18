@@ -3,6 +3,7 @@ Click on Tools > Script Editor… which should open a new tab.
 Rename it Submit Form to Google Sheets. Make sure to wait for it to actually save and update the title before editing the script.
 Now, delete the function myFunction() {} block within the Code.gs tab.
 Paste the following script in it's place and File > Save:
+
 var sheetName = 'Sheet1'
 var scriptProp = PropertiesService.getScriptProperties()
 
